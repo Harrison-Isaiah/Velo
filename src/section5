@@ -1,0 +1,203 @@
+import React from 'react';
+
+function renderSection5(props) {
+  return (
+    <section className="border-solid border-[rgb(246,255,255)] border-t-[1px] border-r-[0px] border-b-[0px] border-l-[0px] w-[1920px] h-[900px] relative min-h-[900px]">
+      /*🚩58 Unstructured items require structuring to ensure responsiveness, as code with absolute positioning lacks
+      adaptability.❗*/
+      <img
+        className="w-[250px] h-[52px] absolute left-[90px] right-[1580px] top-[106px] bottom-[742px]"
+        src={'/assets/7a2571aa7a1d5fa66a15909d68312e2c.svg'}
+        alt="alt text"
+      />
+      <hr
+        className="bg-[image:linear-gradient(90deg,_rgba(226,_235,_235,_0.00)_0%,_rgba(246,_255,_255,_0.49)_51.5%,_rgba(226,_235,_235,_0.00)_100%)] w-[1920px] h-px absolute left-0 right-0 top-[728px] bottom-[171px]"
+        size={1}
+      />
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-white w-[147px] h-[11px] absolute left-[113px] right-[1660px] top-[509px] bottom-[380px]">
+        info@vinncorp.com
+      </p>
+      <img
+        className="w-[13px] absolute left-[90px] right-[1817px] top-[510px] bottom-[380px]"
+        src={'/assets/e4214c540493a520b9868c1f83a0e9bd.svg'}
+        alt="alt text"
+      />
+      <h3 className="font-light text-[20px] leading-[1.2] font-Montserrat text-white w-[511px] h-24 absolute left-[90px] right-[1319px] top-[301px] bottom-[503px]">
+        VinnCorp believes in providing the best solution to businesses ensuring success with the top talents in the
+        market. We offer experts worldwide and have 70+ satisfied clients, growing exponentially.
+      </h3>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-white tracking-[-1.61px] w-[121px] h-[11px] absolute left-[113px] right-[1686px] top-[448px] bottom-[441px]">
+        +1 (510) 935-3636
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-white tracking-[-1.71px] w-[119px] h-[11px] absolute left-[113px] right-[1688px] top-[479px] bottom-[410px]">
+        +1 (415) 702-8152
+      </p>
+      <img
+        className="w-[13px] absolute left-[90px] right-[1817px] top-[447px] bottom-[440px]"
+        src={'/assets/9d94b6eb0e4ba4983cd266a6c74ee9fd.svg'}
+        alt="alt text"
+      />
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-white tracking-[-0.5px] w-[292px] h-[11px] absolute left-[110px] right-[1518px] top-[550px] bottom-[339px]">
+        10209 Trail Blaze Ct Elk Grove, CA 95757
+      </p>
+      <img
+        className="w-2.5 absolute left-[90px] right-[1820px] top-[549px] bottom-[338px]"
+        src={'/assets/4b99724f6cf9795db3856bf2dceed302.svg'}
+        alt="alt text"
+      />
+      <h2 className="flex items-center font-normal text-[24px] leading-[0.7] font-Montserrat text-[rgb(246,255,255)] uppercase tracking-[-0.1px] w-44 h-[17px] absolute left-[869px] right-[875px] top-[304px] bottom-[579px]">
+        useful links
+      </h2>
+      <hr
+        className="bg-[image:linear-gradient(90deg,_rgba(226,_235,_235,_0.00)_0%,_rgba(246,_255,_255,_0.49)_51.5%,_rgba(226,_235,_235,_0.00)_100%)] w-[177px] h-px absolute left-[869px] right-[874px] top-[340px] bottom-[559px]"
+        size={1}
+      />
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] capitalize w-[70px] h-[11px] absolute left-[869px] right-[981px] top-[371px] bottom-[518px]">
+        about us
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] capitalize w-[73px] h-[11px] absolute left-[869px] right-[978px] top-[412px] bottom-[477px]">
+        Our work
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] capitalize w-[57px] h-[11px] absolute left-[869px] right-[994px] top-[453px] bottom-[436px]">
+        Careers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] capitalize w-[148px] h-[11px] absolute left-[869px] right-[903px] top-[494px] bottom-[395px]">{`Web & Logo design`}</p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] capitalize w-[83px] h-[11px] absolute left-[869px] right-[968px] top-[535px] bottom-[354px]">
+        Contact us
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] capitalize w-[43px] h-[11px] absolute left-[869px] right-[1008px] top-[576px] bottom-[313px]">
+        Blogs
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] capitalize w-[93px] h-[11px] absolute left-[869px] right-[958px] top-[617px] bottom-[272px]">
+        Fast Learner
+      </p>
+      <h2 className="flex items-center font-normal text-[24px] leading-[0.7] font-Montserrat text-[rgb(246,255,255)] uppercase w-[143px] h-[17px] absolute left-[1196px] right-[581px] top-[304px] bottom-[579px]">
+        locations
+      </h2>
+      <hr
+        className="bg-[image:linear-gradient(90deg,_rgba(226,_235,_235,_0.00)_0%,_rgba(246,_255,_255,_0.49)_51.5%,_rgba(226,_235,_235,_0.00)_100%)] w-[143px] h-px absolute left-[1196px] right-[581px] top-[340px] bottom-[559px]"
+        size={1}
+      />
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] capitalize w-[104px] h-[11px] absolute left-[1196px] right-[620px] top-[371px] bottom-[518px]">
+        New york City
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[104px] h-[11px] absolute left-[1196px] right-[620px] top-[412px] bottom-[477px]">
+        San Francisco
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[92px] h-[11px] absolute left-[1196px] right-[632px] top-[453px] bottom-[436px]">
+        San Antonio
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[78px] h-[11px] absolute left-[1196px] right-[646px] top-[494px] bottom-[395px]">
+        San Diego
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] tracking-[-0.1px] w-[89px] h-[11px] absolute left-[1196px] right-[635px] top-[535px] bottom-[354px]">
+        Los Angeles
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[62px] h-[11px] absolute left-[1196px] right-[662px] top-[576px] bottom-[313px]">
+        Chicago
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[46px] h-[11px] absolute left-[1196px] right-[678px] top-[617px] bottom-[272px]">
+        Dubai
+      </p>
+      <h2 className="flex items-center font-normal text-[24px] leading-[0.7] font-Montserrat text-[rgb(246,255,255)] uppercase w-[173px] h-[17px] absolute left-[1489px] right-[258px] top-[304px] bottom-[579px]">
+        our experts
+      </h2>
+      <hr
+        className="bg-[image:linear-gradient(90deg,_rgba(226,_235,_235,_0.00)_0%,_rgba(246,_255,_255,_0.49)_51.5%,_rgba(226,_235,_235,_0.00)_100%)] w-[173px] h-px absolute left-[1489px] right-[258px] top-[340px] bottom-[559px]"
+        size={1}
+      />
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] capitalize w-[165px] h-[11px] absolute left-[1489px] right-[266px] top-[371px] bottom-[518px]">
+        Front-end developers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[161px] h-[11px] absolute left-[1489px] right-[270px] top-[412px] bottom-[477px]">
+        Back-end Developers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[161px] h-[11px] absolute left-[1489px] right-[270px] top-[453px] bottom-[436px]">
+        Full Stack Developers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[175px] h-[11px] absolute left-[1489px] right-64 top-[494px] bottom-[395px]">
+        Mobile App Developers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[145px] h-[11px] absolute left-[1489px] right-[286px] top-[535px] bottom-[354px]">
+        Shopify Developers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[118px] h-[11px] absolute left-[1489px] right-[313px] top-[576px] bottom-[313px]">
+        Logo Designers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[86px] h-[11px] absolute left-[1489px] right-[345px] top-[617px] bottom-[272px]">
+        SEO Expert
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[157px] h-[11px] absolute left-[1489px] right-[274px] top-[658px] bottom-[231px]">
+        Salesforce Developer
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] capitalize w-[133px] h-[11px] absolute left-[1694px] right-[93px] top-[371px] bottom-[518px]">
+        Project Managers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[123px] h-[11px] absolute left-[1694px] right-[103px] top-[412px] bottom-[477px]">
+        UI/UX Designers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[104px] h-[11px] absolute left-[1694px] right-[122px] top-[453px] bottom-[436px]">
+        QA Engineers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[95px] h-[11px] absolute left-[1694px] right-[131px] top-[494px] bottom-[395px]">
+        CRO Experts
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[136px] h-[11px] absolute left-[1694px] right-[90px] top-[535px] bottom-[354px]">
+        MEAN Developers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[136px] h-[11px] absolute left-[1694px] right-[90px] top-[576px] bottom-[313px]">
+        MERN Developers
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-28 h-[11px] absolute left-[1694px] right-[114px] top-[617px] bottom-[272px]">
+        Content Writer
+      </p>
+      <p className="flex items-center font-normal text-[15px] leading-[0.73] font-Montserrat text-[rgb(246,255,255)] w-[114px] h-[11px] absolute left-[1694px] right-28 top-[658px] bottom-[231px]">
+        Java Developer
+      </p>
+      <h3 className="flex items-center font-normal text-[20px] leading-[0.7] font-Montserrat text-[rgb(246,255,255)] capitalize tracking-[-0.2px] w-[479px] h-3.5 absolute left-[90px] right-[1351px] top-[800px] bottom-[86px]">
+        Copyright © 2024 VinnCorp. All Rights Reserved.
+      </h3>
+      <h3 className="flex items-center font-normal text-[20px] leading-[0.7] font-Montserrat text-[rgb(246,255,255)] capitalize w-[137px] h-3.5 absolute left-[691px] right-[1092px] top-[800px] bottom-[86px]">
+        Privacy Policy
+      </h3>
+      <img
+        className="rounded-[17.5px] outline outline-[rgb(246,255,255)] outline-1 outline-offset-[-1px] w-[35px] absolute left-[1615px] right-[270px] top-[789px] bottom-[76px]"
+        src={'/assets/0873da78f7f2f153afbe8841b9d0dda3.svg'}
+        alt="alt text"
+      />
+      <img
+        className="rounded-[17.5px] outline outline-[rgb(246,255,255)] outline-1 outline-offset-[-1px] w-[35px] absolute left-[1660px] right-[225px] top-[789px] bottom-[76px]"
+        src={'/assets/058b8b333eb2d2a8ca124a0a7cc09c3a.svg'}
+        alt="alt text"
+      />
+      <img
+        className="rounded-[17.5px] outline outline-[rgb(246,255,255)] outline-1 outline-offset-[-1px] w-[35px] absolute left-[1705px] right-[180px] top-[789px] bottom-[76px]"
+        src={'/assets/eaefcee65a22f5f3abb6124341780d35.svg'}
+        alt="alt text"
+      />
+      <img
+        className="rounded-[17.5px] outline outline-[rgb(246,255,255)] outline-1 outline-offset-[-1px] w-[35px] absolute left-[1750px] right-[135px] top-[789px] bottom-[76px]"
+        src={'/assets/20980368926a2c55804e8b9ef1e9e8b6.svg'}
+        alt="alt text"
+      />
+      <img
+        className="rounded-[17.5px] outline outline-[rgb(246,255,255)] outline-1 outline-offset-[-1px] w-[35px] absolute left-[1795px] right-[90px] top-[789px] bottom-[76px]"
+        src={'/assets/1f4bde3c936ec6752e7d293651dfec65.svg'}
+        alt="alt text"
+      />
+      <h3 className="flex items-center font-normal text-[20px] leading-[0.7] font-Montserrat text-[rgb(246,255,255)] uppercase w-[521px] h-3.5 absolute left-[996px] right-[403px] top-[79px] bottom-[807px]">
+        Be The First To Have The Latest Tech Updates
+      </h3>
+      <div className="rounded-md outline outline-[rgb(246,255,255)] outline-1 outline-offset-[-1px] w-[834px] h-[62px] absolute left-[996px] right-[90px] top-[123px] bottom-[715px]" />
+      <div className="rounded-[0px_6px_6px_0px] outline outline-[rgb(246,255,255)] outline-1 outline-offset-[-1px] w-[174px] h-[62px] absolute left-[1656px] right-[90px] top-[123px] bottom-[715px]" />
+      <h3 className="flex items-center font-normal text-[20px] leading-[0.7] font-Montserrat text-[rgb(246,255,255)] uppercase w-20 h-3.5 absolute left-[1703px] right-[137px] top-[147px] bottom-[739px]">
+        submit
+      </h3>
+      <h3 className="flex items-center font-normal text-[20px] leading-[0.7] font-Montserrat text-[rgb(246,255,255)] capitalize w-[254px] h-3.5 opacity-[0.5] absolute left-[1020px] right-[646px] top-[147px] bottom-[739px]">
+        enter your email address
+      </h3>
+    </section>
+  );
+}
+
+export default renderSection5;
